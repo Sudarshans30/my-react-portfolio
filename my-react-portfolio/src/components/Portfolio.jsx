@@ -19,45 +19,50 @@ const Portfolio = () => {
     {
       id: 2,
       src: Jatepwa,
-
+      href: "https://example.com/jatepwa"
     },
     {
       id: 3,
       src: NoteTakingAPP,
-
+      href: "https://github.com/example/note-taking-app"
     },
     {
       id: 4,
       src: PasswordGenerator,
-
+      href: "https://github.com/example/password-generator"
     },
     {
       id: 5,
       src: Platepals,
-
+      href: "https://example.com/platepals"
     },
     {
       id: 6,
       src: TalentBridge,
+      href: "https://github.com/example/talent-bridge"
     },
     {
       id: 7,
       src: WeatherDashboard,
+      href: "https://github.com/example/weather-dashboard"
     },
     {
       id: 8,
       src: WorkdaySchedular,
+      href: "https://github.com/example/workday-scheduler"
     },
     {
       id: 9,
-      src: EmployeeTemplates
+      src: EmployeeTemplates,
+      href: "https://github.com/example/employee-templates"
     }
 
   ];
+  
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen margin-top-100px"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -92,4 +97,3 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
- 
